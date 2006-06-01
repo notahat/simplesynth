@@ -1,0 +1,15 @@
+//
+// Prefix header for all source files of the 'SimpleSynth' target in the 'SimpleSynth' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    
+    #include <CoreServices/CoreServices.h>
+    #include <CoreAudio/CoreAudio.h>
+    #include <AudioUnit/AudioUnit.h>
+    #include <AudioToolbox/AUGraph.h>
+    #include <CoreMIDI/MIDIServices.h>
+
+    #import <PYMIDI/PYMIDI.h>
+#endif

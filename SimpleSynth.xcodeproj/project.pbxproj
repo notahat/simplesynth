@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C1FDC5760A2DD88200C94DEA /* NSStringFSSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC56B0A2DD88200C94DEA /* NSStringFSSpec.m */; };
+		C1FDC5770A2DD88200C94DEA /* InstrumentsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC56D0A2DD88200C94DEA /* InstrumentsDataSource.m */; };
+		C1FDC5780A2DD88200C94DEA /* ChannelsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC56F0A2DD88200C94DEA /* ChannelsDataSource.m */; };
+		C1FDC5790A2DD88200C94DEA /* GaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC5700A2DD88200C94DEA /* GaugeView.m */; };
+		C1FDC57A0A2DD88200C94DEA /* SynthController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC5740A2DD88200C94DEA /* SynthController.m */; };
+		C1FDC57B0A2DD88200C94DEA /* AudioSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC5750A2DD88200C94DEA /* AudioSystem.m */; };
+		C1FDC5960A2DD8CD00C94DEA /* PYMIDIEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC5810A2DD8CD00C94DEA /* PYMIDIEndpoint.m */; };
+		C1FDC5970A2DD8CD00C94DEA /* PYMIDIEndpointDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC5830A2DD8CD00C94DEA /* PYMIDIEndpointDescriptor.m */; };
+		C1FDC5980A2DD8CD00C94DEA /* PYMIDIEndpointSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC5850A2DD8CD00C94DEA /* PYMIDIEndpointSet.m */; };
+		C1FDC5990A2DD8CD00C94DEA /* PYMIDIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC5870A2DD8CD00C94DEA /* PYMIDIManager.m */; };
+		C1FDC59A0A2DD8CD00C94DEA /* PYMIDIRealDestination.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC5890A2DD8CD00C94DEA /* PYMIDIRealDestination.m */; };
+		C1FDC59B0A2DD8CD00C94DEA /* PYMIDIRealEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC58B0A2DD8CD00C94DEA /* PYMIDIRealEndpoint.m */; };
+		C1FDC59C0A2DD8CD00C94DEA /* PYMIDIRealSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC58D0A2DD8CD00C94DEA /* PYMIDIRealSource.m */; };
+		C1FDC59D0A2DD8CD00C94DEA /* PYMIDIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC58F0A2DD8CD00C94DEA /* PYMIDIUtils.m */; };
+		C1FDC59E0A2DD8CD00C94DEA /* PYMIDIVirtualDestination.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC5910A2DD8CD00C94DEA /* PYMIDIVirtualDestination.m */; };
+		C1FDC59F0A2DD8CD00C94DEA /* PYMIDIVirtualEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC5930A2DD8CD00C94DEA /* PYMIDIVirtualEndpoint.m */; };
+		C1FDC5A00A2DD8CD00C94DEA /* PYMIDIVirtualSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC5950A2DD8CD00C94DEA /* PYMIDIVirtualSource.m */; };
+		C1FDC5EB0A2DDCCB00C94DEA /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FDC5E90A2DDCCB00C94DEA /* AudioUnit.framework */; };
+		C1FDC5EC0A2DDCCB00C94DEA /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FDC5EA0A2DDCCB00C94DEA /* CoreAudio.framework */; };
+		C1FDC5EE0A2DDCFD00C94DEA /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FDC5ED0A2DDCFD00C94DEA /* CoreMIDI.framework */; };
+		C1FDC62A0A2DDD9900C94DEA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FDC6290A2DDD9900C94DEA /* AudioToolbox.framework */; };
+		C1FDC6800A2DE0A400C94DEA /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C1FDC67F0A2DE0A400C94DEA /* AppIcon.icns */; };
+		C1FDC6980A2DE10300C94DEA /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = C1FDC6970A2DE10300C94DEA /* Credits.html */; };
+		C1FDC7220A2DE68F00C94DEA /* License.html in Resources */ = {isa = PBXBuildFile; fileRef = C1FDC7200A2DE68F00C94DEA /* License.html */; };
+		C1FDC7230A2DE68F00C94DEA /* Read Me.html in Resources */ = {isa = PBXBuildFile; fileRef = C1FDC7210A2DE68F00C94DEA /* Read Me.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* SimpleSynth_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleSynth_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* SimpleSynth.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SimpleSynth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1FDC56A0A2DD88200C94DEA /* SynthController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SynthController.h; sourceTree = "<group>"; };
+		C1FDC56B0A2DD88200C94DEA /* NSStringFSSpec.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NSStringFSSpec.m; sourceTree = "<group>"; };
+		C1FDC56C0A2DD88200C94DEA /* NSStringFSSpec.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSStringFSSpec.h; sourceTree = "<group>"; };
+		C1FDC56D0A2DD88200C94DEA /* InstrumentsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = InstrumentsDataSource.m; sourceTree = "<group>"; };
+		C1FDC56E0A2DD88200C94DEA /* InstrumentsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = InstrumentsDataSource.h; sourceTree = "<group>"; };
+		C1FDC56F0A2DD88200C94DEA /* ChannelsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ChannelsDataSource.m; sourceTree = "<group>"; };
+		C1FDC5700A2DD88200C94DEA /* GaugeView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GaugeView.m; sourceTree = "<group>"; };
+		C1FDC5710A2DD88200C94DEA /* GaugeView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GaugeView.h; sourceTree = "<group>"; };
+		C1FDC5720A2DD88200C94DEA /* ChannelsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ChannelsDataSource.h; sourceTree = "<group>"; };
+		C1FDC5730A2DD88200C94DEA /* AudioSystem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AudioSystem.h; sourceTree = "<group>"; };
+		C1FDC5740A2DD88200C94DEA /* SynthController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SynthController.m; sourceTree = "<group>"; };
+		C1FDC5750A2DD88200C94DEA /* AudioSystem.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AudioSystem.m; sourceTree = "<group>"; };
+		C1FDC57F0A2DD8CD00C94DEA /* PYMIDI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDI.h; sourceTree = "<group>"; };
+		C1FDC5800A2DD8CD00C94DEA /* PYMIDIEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDIEndpoint.h; sourceTree = "<group>"; };
+		C1FDC5810A2DD8CD00C94DEA /* PYMIDIEndpoint.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIEndpoint.m; sourceTree = "<group>"; };
+		C1FDC5820A2DD8CD00C94DEA /* PYMIDIEndpointDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDIEndpointDescriptor.h; sourceTree = "<group>"; };
+		C1FDC5830A2DD8CD00C94DEA /* PYMIDIEndpointDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIEndpointDescriptor.m; sourceTree = "<group>"; };
+		C1FDC5840A2DD8CD00C94DEA /* PYMIDIEndpointSet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDIEndpointSet.h; sourceTree = "<group>"; };
+		C1FDC5850A2DD8CD00C94DEA /* PYMIDIEndpointSet.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIEndpointSet.m; sourceTree = "<group>"; };
+		C1FDC5860A2DD8CD00C94DEA /* PYMIDIManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDIManager.h; sourceTree = "<group>"; };
+		C1FDC5870A2DD8CD00C94DEA /* PYMIDIManager.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIManager.m; sourceTree = "<group>"; };
+		C1FDC5880A2DD8CD00C94DEA /* PYMIDIRealDestination.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDIRealDestination.h; sourceTree = "<group>"; };
+		C1FDC5890A2DD8CD00C94DEA /* PYMIDIRealDestination.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIRealDestination.m; sourceTree = "<group>"; };
+		C1FDC58A0A2DD8CD00C94DEA /* PYMIDIRealEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDIRealEndpoint.h; sourceTree = "<group>"; };
+		C1FDC58B0A2DD8CD00C94DEA /* PYMIDIRealEndpoint.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIRealEndpoint.m; sourceTree = "<group>"; };
+		C1FDC58C0A2DD8CD00C94DEA /* PYMIDIRealSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDIRealSource.h; sourceTree = "<group>"; };
+		C1FDC58D0A2DD8CD00C94DEA /* PYMIDIRealSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIRealSource.m; sourceTree = "<group>"; };
+		C1FDC58E0A2DD8CD00C94DEA /* PYMIDIUtils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDIUtils.h; sourceTree = "<group>"; };
+		C1FDC58F0A2DD8CD00C94DEA /* PYMIDIUtils.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIUtils.m; sourceTree = "<group>"; };
+		C1FDC5900A2DD8CD00C94DEA /* PYMIDIVirtualDestination.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDIVirtualDestination.h; sourceTree = "<group>"; };
+		C1FDC5910A2DD8CD00C94DEA /* PYMIDIVirtualDestination.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIVirtualDestination.m; sourceTree = "<group>"; };
+		C1FDC5920A2DD8CD00C94DEA /* PYMIDIVirtualEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDIVirtualEndpoint.h; sourceTree = "<group>"; };
+		C1FDC5930A2DD8CD00C94DEA /* PYMIDIVirtualEndpoint.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIVirtualEndpoint.m; sourceTree = "<group>"; };
+		C1FDC5940A2DD8CD00C94DEA /* PYMIDIVirtualSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDIVirtualSource.h; sourceTree = "<group>"; };
+		C1FDC5950A2DD8CD00C94DEA /* PYMIDIVirtualSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIVirtualSource.m; sourceTree = "<group>"; };
+		C1FDC5E90A2DDCCB00C94DEA /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		C1FDC5EA0A2DDCCB00C94DEA /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		C1FDC5ED0A2DDCFD00C94DEA /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
+		C1FDC6290A2DDD9900C94DEA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		C1FDC67F0A2DE0A400C94DEA /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		C1FDC6970A2DE10300C94DEA /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		C1FDC7200A2DE68F00C94DEA /* License.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = License.html; sourceTree = "<group>"; };
+		C1FDC7210A2DE68F00C94DEA /* Read Me.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = "Read Me.html"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				C1FDC5EB0A2DDCCB00C94DEA /* AudioUnit.framework in Frameworks */,
+				C1FDC5EC0A2DDCCB00C94DEA /* CoreAudio.framework in Frameworks */,
+				C1FDC5EE0A2DDCFD00C94DEA /* CoreMIDI.framework in Frameworks */,
+				C1FDC62A0A2DDD9900C94DEA /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1FDC6290A2DDD9900C94DEA /* AudioToolbox.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				C1FDC5ED0A2DDCFD00C94DEA /* CoreMIDI.framework */,
+				C1FDC5E90A2DDCCB00C94DEA /* AudioUnit.framework */,
+				C1FDC5EA0A2DDCCB00C94DEA /* CoreAudio.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* SimpleSynth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* SimpleSynth */ = {
+			isa = PBXGroup;
+			children = (
+				C1FDC6BB0A2DE25E00C94DEA /* Controller Classes */,
+				C1FDC6BA0A2DE25000C94DEA /* View Classes */,
+				C1FDC6B90A2DE24200C94DEA /* Model Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				C1FDC57E0A2DD8CD00C94DEA /* PYMIDI */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = SimpleSynth;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SimpleSynth_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				C1FDC56C0A2DD88200C94DEA /* NSStringFSSpec.h */,
+				C1FDC56B0A2DD88200C94DEA /* NSStringFSSpec.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				C1FDC67F0A2DE0A400C94DEA /* AppIcon.icns */,
+				C1FDC6970A2DE10300C94DEA /* Credits.html */,
+				C1FDC7200A2DE68F00C94DEA /* License.html */,
+				C1FDC7210A2DE68F00C94DEA /* Read Me.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1FDC57E0A2DD8CD00C94DEA /* PYMIDI */ = {
+			isa = PBXGroup;
+			children = (
+				C1FDC57F0A2DD8CD00C94DEA /* PYMIDI.h */,
+				C1FDC5800A2DD8CD00C94DEA /* PYMIDIEndpoint.h */,
+				C1FDC5810A2DD8CD00C94DEA /* PYMIDIEndpoint.m */,
+				C1FDC5820A2DD8CD00C94DEA /* PYMIDIEndpointDescriptor.h */,
+				C1FDC5830A2DD8CD00C94DEA /* PYMIDIEndpointDescriptor.m */,
+				C1FDC5840A2DD8CD00C94DEA /* PYMIDIEndpointSet.h */,
+				C1FDC5850A2DD8CD00C94DEA /* PYMIDIEndpointSet.m */,
+				C1FDC5860A2DD8CD00C94DEA /* PYMIDIManager.h */,
+				C1FDC5870A2DD8CD00C94DEA /* PYMIDIManager.m */,
+				C1FDC5880A2DD8CD00C94DEA /* PYMIDIRealDestination.h */,
+				C1FDC5890A2DD8CD00C94DEA /* PYMIDIRealDestination.m */,
+				C1FDC58A0A2DD8CD00C94DEA /* PYMIDIRealEndpoint.h */,
+				C1FDC58B0A2DD8CD00C94DEA /* PYMIDIRealEndpoint.m */,
+				C1FDC58C0A2DD8CD00C94DEA /* PYMIDIRealSource.h */,
+				C1FDC58D0A2DD8CD00C94DEA /* PYMIDIRealSource.m */,
+				C1FDC58E0A2DD8CD00C94DEA /* PYMIDIUtils.h */,
+				C1FDC58F0A2DD8CD00C94DEA /* PYMIDIUtils.m */,
+				C1FDC5900A2DD8CD00C94DEA /* PYMIDIVirtualDestination.h */,
+				C1FDC5910A2DD8CD00C94DEA /* PYMIDIVirtualDestination.m */,
+				C1FDC5920A2DD8CD00C94DEA /* PYMIDIVirtualEndpoint.h */,
+				C1FDC5930A2DD8CD00C94DEA /* PYMIDIVirtualEndpoint.m */,
+				C1FDC5940A2DD8CD00C94DEA /* PYMIDIVirtualSource.h */,
+				C1FDC5950A2DD8CD00C94DEA /* PYMIDIVirtualSource.m */,
+			);
+			path = PYMIDI;
+			sourceTree = "<group>";
+		};
+		C1FDC6B90A2DE24200C94DEA /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1FDC5730A2DD88200C94DEA /* AudioSystem.h */,
+				C1FDC5750A2DD88200C94DEA /* AudioSystem.m */,
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+		C1FDC6BA0A2DE25000C94DEA /* View Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1FDC5710A2DD88200C94DEA /* GaugeView.h */,
+				C1FDC5700A2DD88200C94DEA /* GaugeView.m */,
+			);
+			name = "View Classes";
+			sourceTree = "<group>";
+		};
+		C1FDC6BB0A2DE25E00C94DEA /* Controller Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1FDC56E0A2DD88200C94DEA /* InstrumentsDataSource.h */,
+				C1FDC56D0A2DD88200C94DEA /* InstrumentsDataSource.m */,
+				C1FDC5720A2DD88200C94DEA /* ChannelsDataSource.h */,
+				C1FDC56F0A2DD88200C94DEA /* ChannelsDataSource.m */,
+				C1FDC56A0A2DD88200C94DEA /* SynthController.h */,
+				C1FDC5740A2DD88200C94DEA /* SynthController.m */,
+			);
+			name = "Controller Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* SimpleSynth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SimpleSynth" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleSynth;
+			productInstallPath = "$(HOME)/Applications";
+			productName = SimpleSynth;
+			productReference = 8D1107320486CEB800E47090 /* SimpleSynth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleSynth" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* SimpleSynth */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* SimpleSynth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				C1FDC6800A2DE0A400C94DEA /* AppIcon.icns in Resources */,
+				C1FDC6980A2DE10300C94DEA /* Credits.html in Resources */,
+				C1FDC7220A2DE68F00C94DEA /* License.html in Resources */,
+				C1FDC7230A2DE68F00C94DEA /* Read Me.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				C1FDC5760A2DD88200C94DEA /* NSStringFSSpec.m in Sources */,
+				C1FDC5770A2DD88200C94DEA /* InstrumentsDataSource.m in Sources */,
+				C1FDC5780A2DD88200C94DEA /* ChannelsDataSource.m in Sources */,
+				C1FDC5790A2DD88200C94DEA /* GaugeView.m in Sources */,
+				C1FDC57A0A2DD88200C94DEA /* SynthController.m in Sources */,
+				C1FDC57B0A2DD88200C94DEA /* AudioSystem.m in Sources */,
+				C1FDC5960A2DD8CD00C94DEA /* PYMIDIEndpoint.m in Sources */,
+				C1FDC5970A2DD8CD00C94DEA /* PYMIDIEndpointDescriptor.m in Sources */,
+				C1FDC5980A2DD8CD00C94DEA /* PYMIDIEndpointSet.m in Sources */,
+				C1FDC5990A2DD8CD00C94DEA /* PYMIDIManager.m in Sources */,
+				C1FDC59A0A2DD8CD00C94DEA /* PYMIDIRealDestination.m in Sources */,
+				C1FDC59B0A2DD8CD00C94DEA /* PYMIDIRealEndpoint.m in Sources */,
+				C1FDC59C0A2DD8CD00C94DEA /* PYMIDIRealSource.m in Sources */,
+				C1FDC59D0A2DD8CD00C94DEA /* PYMIDIUtils.m in Sources */,
+				C1FDC59E0A2DD8CD00C94DEA /* PYMIDIVirtualDestination.m in Sources */,
+				C1FDC59F0A2DD8CD00C94DEA /* PYMIDIVirtualEndpoint.m in Sources */,
+				C1FDC5A00A2DD8CD00C94DEA /* PYMIDIVirtualSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SimpleSynth;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SimpleSynth;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION_ppc = 3.3;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = .;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION_ppc = 3.3;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = .;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SimpleSynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleSynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

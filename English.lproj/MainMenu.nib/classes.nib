@@ -1,0 +1,34 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = GaugeView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {
+                cutoffSliderChanged = id; 
+                displayHelp = id; 
+                displayLicense = id; 
+                midiInputChanged = id; 
+                openDocument = id; 
+                sendFeedback = id; 
+                visitWebSite = id; 
+            }; 
+            CLASS = SynthController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bankSelectLSBField = NSTextField; 
+                bankSelectMSBField = NSTextField; 
+                channelsTable = NSTableView; 
+                cpuLoadGuage = GaugeView; 
+                cutoffSlider = NSSlider; 
+                instrumentsDrawer = NSDrawer; 
+                instrumentsTable = NSTableView; 
+                mainWindow = NSWindow; 
+                midiInputPopup = NSPopUpButton; 
+                programNumberField = NSTextField; 
+                soundSetTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
