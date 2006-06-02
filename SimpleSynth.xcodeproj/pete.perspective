@@ -222,8 +222,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -310,6 +308,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C177C2110A308AB600828800</string>
+										<string>C177C2370A308CC900828800</string>
 										<key>history</key>
 										<array>
 											<string>C1FDC5D00A2DDB8000C94DEA</string>
@@ -345,7 +345,7 @@
 											<string>C1FC9FF30A308763002C7A2D</string>
 											<string>C177C20D0A308AB600828800</string>
 											<string>C177C20E0A308AB600828800</string>
-											<string>C1FCA0450A3089E7002C7A2D</string>
+											<string>C177C2110A308AB600828800</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -365,8 +365,6 @@
 											<string>C1869CD50A2EB8F600ACC801</string>
 											<string>C1D1D0380A2ED9AA00238A45</string>
 											<string>C1FC9FF80A308763002C7A2D</string>
-											<string>C177C20F0A308AB600828800</string>
-											<string>C177C2100A308AB600828800</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -466,11 +464,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>C177C2120A308AB600828800</string>
+				<string>C177C2380A308CC900828800</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>C177C2130A308AB600828800</string>
+				<string>C177C2390A308CC900828800</string>
 				<string>C1FDC5620A2DD82400C94DEA</string>
-				<string>C177C2140A308AB600828800</string>
+				<string>C177C23A0A308CC900828800</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
