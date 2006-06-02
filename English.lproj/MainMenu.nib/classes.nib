@@ -9,6 +9,7 @@
                 displayLicense = id; 
                 midiInputChanged = id; 
                 openDocument = id; 
+                restoreAppleSounds = id; 
                 sendFeedback = id; 
                 visitWebSite = id; 
             }; 

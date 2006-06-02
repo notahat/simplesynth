@@ -163,6 +163,16 @@
 }
 
 
+- (IBAction)restoreAppleSounds:(id)sender
+{
+    [audioSystem restoreAppleSounds];
+    [soundSetTextField setStringValue:@"Apple DLS Sound Set"];
+    [channelsTable reloadData];
+    [instrumentsTable reloadData];
+    [self updateMIDIDetails];
+}
+
+
 // This is called to open a particular file, either by the openDocument method
 // or by NSApplication when files are dragged-and-dropped on the app.
 - (BOOL)application:(NSApplication*)theApplication openFile:(NSString*)filename

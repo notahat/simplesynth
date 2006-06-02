@@ -1,4 +1,0 @@
-Import of SimpleSynth from the old CVS repository, with some modifications to make it compile with modern XCode and build a universal binary. There are still some rough edges to polish before deployment.
---This line, and those below, will be ignored--
-
-A    .

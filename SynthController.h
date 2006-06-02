@@ -59,6 +59,7 @@
 - (void)midiSetupChanged:(NSNotification*)notification;
 
 - (IBAction)openDocument:(id)sender;
+- (IBAction)restoreAppleSounds:(id)sender;
 - (BOOL)application:(NSApplication*)theApplication openFile:(NSString*)filename;
 - (void)displayOpenFailedAlert:(NSString*)fileName;
 

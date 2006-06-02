@@ -116,6 +116,47 @@
 }
 
 
+// This restores the built-in Apple sounds. The only way to do this is to
+// remove the synth node and make a new one.
+- (void)restoreAppleSounds
+{
+    ComponentDescription	description;
+    AudioUnit				synthUnit;
+    UInt32					usesReverb;
+    int						i;
+
+    AUGraphStop(graph);
+    AUGraphRemoveNode(graph, synthNode);
+
+    // Open the DLS Synth
+    description.componentType			= kAudioUnitComponentType;
+    description.componentSubType		= kAudioUnitSubType_MusicDevice;
+    description.componentManufacturer	= kAudioUnitID_DLSSynth;
+    description.componentFlags			= 0;
+    description.componentFlagsMask		= 0;
+    AUGraphNewNode (graph, &description, 0, NULL, &synthNode);
+    
+    for (i = 0; i < 16; i++) channelInstrument[i] = 0;
+
+    // Connect the devices up
+    AUGraphConnectNodeInput (graph, synthNode, 1, filterNode, 0);
+    AUGraphConnectNodeInput (graph, filterNode, 0, outputNode, 0);
+    AUGraphUpdate (graph, NULL);
+
+    // Turn off the reverb on the synth
+    AUGraphGetNodeInfo (graph, synthNode, NULL, NULL, NULL, &synthUnit);
+    usesReverb = 0;
+    AudioUnitSetProperty (
+        synthUnit,
+        kMusicDeviceProperty_UsesInternalReverb, kAudioUnitScope_Global,
+        0,
+        &usesReverb, sizeof (usesReverb)
+    );
+
+    AUGraphStart(graph);
+}
+
+
 - (UInt32)instrumentCount
 {
     OSErr		result;

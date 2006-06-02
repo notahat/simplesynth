@@ -58,6 +58,7 @@ typedef struct {
 // Audio related
 - (void)setUpAudio;
 - (BOOL)openFile:(NSString*)filename;
+- (void)restoreAppleSounds;
 
 - (UInt32)instrumentCount;
 - (MusicDeviceInstrumentID)instrumentIDAtIndex:(UInt32)index;
