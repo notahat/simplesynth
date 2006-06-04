@@ -71,7 +71,6 @@
 
 - (void)updateCPULoadGuage;
 
-- (IBAction)displayHelp:(id)sender;
 - (IBAction)displayLicense:(id)sender;
 - (IBAction)visitWebSite:(id)sender;
 - (IBAction)sendFeedback:(id)sender;

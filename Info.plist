@@ -57,5 +57,9 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+    <key>CFBundleHelpBookFolder</key>
+    <string>SimpleSynth Help</string>
+    <key>CFBundleHelpBookName</key>
+    <string>SimpleSynth Help</string>
 </dict>
 </plist>

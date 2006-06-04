@@ -257,14 +257,6 @@
 }
 
 
-- (IBAction)displayHelp:(id)sender
-{
-    [[NSWorkspace sharedWorkspace]
-        openFile:[[NSBundle mainBundle] pathForResource:@"Read Me" ofType:@"html"]
-    ];
-}
-
-
 - (IBAction)displayLicense:(id)sender
 {
     [[NSWorkspace sharedWorkspace]

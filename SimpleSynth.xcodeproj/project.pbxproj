@@ -11,6 +11,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C1B7399A0A32611B006E542A /* SimpleSynth Help in Resources */ = {isa = PBXBuildFile; fileRef = C1B739990A32611B006E542A /* SimpleSynth Help */; };
 		C1FDC5760A2DD88200C94DEA /* NSStringFSSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC56B0A2DD88200C94DEA /* NSStringFSSpec.m */; };
 		C1FDC5770A2DD88200C94DEA /* InstrumentsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC56D0A2DD88200C94DEA /* InstrumentsDataSource.m */; };
 		C1FDC5780A2DD88200C94DEA /* ChannelsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC56F0A2DD88200C94DEA /* ChannelsDataSource.m */; };
@@ -35,7 +36,6 @@
 		C1FDC6800A2DE0A400C94DEA /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C1FDC67F0A2DE0A400C94DEA /* AppIcon.icns */; };
 		C1FDC6980A2DE10300C94DEA /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = C1FDC6970A2DE10300C94DEA /* Credits.html */; };
 		C1FDC7220A2DE68F00C94DEA /* License.html in Resources */ = {isa = PBXBuildFile; fileRef = C1FDC7200A2DE68F00C94DEA /* License.html */; };
-		C1FDC7230A2DE68F00C94DEA /* Read Me.html in Resources */ = {isa = PBXBuildFile; fileRef = C1FDC7210A2DE68F00C94DEA /* Read Me.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +49,7 @@
 		32CA4F630368D1EE00C91783 /* SimpleSynth_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleSynth_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SimpleSynth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSynth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B739920A32610D006E542A /* English */ = {isa = PBXFileReference; lastKnownFileType = folder; name = English; path = "English.lproj/SimpleSynth Help"; sourceTree = "<group>"; };
 		C1FDC56A0A2DD88200C94DEA /* SynthController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SynthController.h; sourceTree = "<group>"; };
 		C1FDC56B0A2DD88200C94DEA /* NSStringFSSpec.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NSStringFSSpec.m; sourceTree = "<group>"; };
 		C1FDC56C0A2DD88200C94DEA /* NSStringFSSpec.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSStringFSSpec.h; sourceTree = "<group>"; };
@@ -91,7 +92,6 @@
 		C1FDC67F0A2DE0A400C94DEA /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		C1FDC6970A2DE10300C94DEA /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 		C1FDC7200A2DE68F00C94DEA /* License.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = License.html; sourceTree = "<group>"; };
-		C1FDC7210A2DE68F00C94DEA /* Read Me.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = "Read Me.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +175,7 @@
 				C1FDC67F0A2DE0A400C94DEA /* AppIcon.icns */,
 				C1FDC6970A2DE10300C94DEA /* Credits.html */,
 				C1FDC7200A2DE68F00C94DEA /* License.html */,
-				C1FDC7210A2DE68F00C94DEA /* Read Me.html */,
+				C1B739990A32611B006E542A /* SimpleSynth Help */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 				C1FDC6800A2DE0A400C94DEA /* AppIcon.icns in Resources */,
 				C1FDC6980A2DE10300C94DEA /* Credits.html in Resources */,
 				C1FDC7220A2DE68F00C94DEA /* License.html in Resources */,
-				C1FDC7230A2DE68F00C94DEA /* Read Me.html in Resources */,
+				C1B7399A0A32611B006E542A /* SimpleSynth Help in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +345,14 @@
 				29B97319FDCFA39411CA2CEA /* English */,
 			);
 			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		C1B739990A32611B006E542A /* SimpleSynth Help */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B739920A32610D006E542A /* English */,
+			);
+			name = "SimpleSynth Help";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
