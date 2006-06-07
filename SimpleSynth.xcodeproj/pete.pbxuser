@@ -302,6 +302,7 @@
 			C19A5F620A372E6E00F0B199 /* PBXTextBookmark */ = C19A5F620A372E6E00F0B199 /* PBXTextBookmark */;
 			C19A5F630A372E6F00F0B199 /* PBXTextBookmark */ = C19A5F630A372E6F00F0B199 /* PBXTextBookmark */;
 			C19A5F640A372E6F00F0B199 /* PBXTextBookmark */ = C19A5F640A372E6F00F0B199 /* PBXTextBookmark */;
+			C19A5F650A372EC200F0B199 /* PBXTextBookmark */ = C19A5F650A372EC200F0B199 /* PBXTextBookmark */;
 			C1FBD0650A3661530020FF89 = C1FBD0650A3661530020FF89 /* PBXTextBookmark */;
 			C1FBD0670A3661530020FF89 = C1FBD0670A3661530020FF89 /* PBXTextBookmark */;
 		};
@@ -2392,9 +2393,9 @@
 		path = "/Users/pete/Projects/Not A Hat/Software/SimpleSynth/English.lproj/SimpleSynth Help/index.html";
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {904, 560}}";
-			sepNavSelRange = "{458, 0}";
-			sepNavVisRect = "{{0, 23}, {904, 444}}";
+			sepNavIntBoundsRect = "{{0, 0}, {817, 576}}";
+			sepNavSelRange = "{415, 0}";
+			sepNavVisRect = "{{0, 0}, {817, 576}}";
 		};
 	};
 	C19A5F4C0A372D6800F0B199 /* PBXTextBookmark */ = {
@@ -2534,6 +2535,16 @@
 		vrLoc = 0;
 	};
 	C19A5F640A372E6F00F0B199 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C19A5F4B0A372D6800F0B199 /* index.html */;
+		name = "index.html: 18";
+		rLen = 0;
+		rLoc = 458;
+		rType = 0;
+		vrLen = 736;
+		vrLoc = 7;
+	};
+	C19A5F650A372EC200F0B199 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = C19A5F4B0A372D6800F0B199 /* index.html */;
 		name = "index.html: 18";

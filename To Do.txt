@@ -1,0 +1,5 @@
+$Id$
+
+Bugs
+
+- The Help Indexer indexes stuff in the .svn directories, and it really shouldn't
