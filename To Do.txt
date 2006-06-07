@@ -1,5 +1,8 @@
 $Id$
 
+To Do
+
+- Work out how to do a deployment build (see "Building a Product for Deployment" in the help)
+
 Bugs
 
-- The Help Indexer indexes stuff in the .svn directories, and it really shouldn't

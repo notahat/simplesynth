@@ -264,6 +264,7 @@
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
 				C1FBCFEF0A3657630020FF89 /* ShellScript */,
+				C19A5F6C0A37301A00F0B199 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -308,6 +309,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		C19A5F6C0A37301A00F0B199 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Automatically index the help files on release builds.\n\nif [[ ${BUILD_STYLE} == \"Release\" ]]; then\n\topen -a /Developer/Applications/Utilities/Help\\ Indexer.app \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Contents/Resources/English.lproj/${PRODUCT_NAME} Help\"\nfi\n";
+		};
 		C1FBCFEF0A3657630020FF89 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
