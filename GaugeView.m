@@ -34,15 +34,16 @@
 
 - (void)drawRect:(NSRect)frameRect
 {
-    NSRect contentRect = NSInsetRect (frameRect, 3.0, 3.0);
-    
-    contentRect.size.width *= value;
-    [[NSColor knobColor] set];
-    NSRectFill (contentRect);
-    
+    [[NSColor whiteColor] set];
+    NSRectFill (frameRect);
+
     [[NSColor controlShadowColor] set];
     NSFrameRect (frameRect);
     
+    NSRect contentRect = NSInsetRect (frameRect, 3.0, 3.0);    
+    contentRect.size.width *= value;
+    [[NSColor knobColor] set];
+    NSRectFill (contentRect);
 }
 
 

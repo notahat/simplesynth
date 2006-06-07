@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Project</string>
+	<string>Build</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -222,8 +222,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -265,19 +263,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>C1FDC6BB0A2DE25E00C94DEA</string>
-								<string>29B97315FDCFA39411CA2CEA</string>
+								<string>C1FDC6BA0A2DE25000C94DEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
-								<string>C1B739990A32611B006E542A</string>
-								<string>C1B739920A32610D006E542A</string>
-								<string>1C37FBAC04509CD000000102</string>
-								<string>C19A5F750A37304100F0B199</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
-									<integer>2</integer>
+									<integer>5</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -302,8 +295,6 @@
 							<string>MainColumn</string>
 							<real>227</real>
 						</array>
-						<key>RubberWindowFrame</key>
-						<string>94 257 1371 892 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -319,7 +310,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>C1FBD0510A3660830020FF89</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SynthController.h</string>
+								<string>GaugeView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,16 +318,15 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>C1FBD0520A3660830020FF89</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SynthController.h</string>
+										<string>GaugeView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C19A5FC90A37355400F0B199</string>
+										<string>C19A60300A379D1E00F0B199</string>
 										<key>history</key>
 										<array>
 											<string>C19A5DA30A37163500F0B199</string>
 											<string>C19A5E510A371DC800F0B199</string>
-											<string>C19A5E750A371ED800F0B199</string>
 											<string>C19A5E820A371F2100F0B199</string>
 											<string>C19A5E830A371F2100F0B199</string>
 											<string>C19A5EE00A37261900F0B199</string>
@@ -347,7 +337,10 @@
 											<string>C19A5FB50A37346F00F0B199</string>
 											<string>C19A5FC50A37355400F0B199</string>
 											<string>C19A5FC60A37355400F0B199</string>
-											<string>C19A5FC70A37355400F0B199</string>
+											<string>C19A5FF80A373B5600F0B199</string>
+											<string>C19A60210A379BE000F0B199</string>
+											<string>C19A60290A379C3D00F0B199</string>
+											<string>C19A602A0A379C3D00F0B199</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -375,6 +368,8 @@
 											<string>C19A5FB80A37346F00F0B199</string>
 											<string>C19A5FC30A37353C00F0B199</string>
 											<string>C19A5FC80A37355400F0B199</string>
+											<string>C19A5FFA0A373B5600F0B199</string>
+											<string>C19A60240A379BE000F0B199</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -388,18 +383,16 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1078, 585}}</string>
-								<key>RubberWindowFrame</key>
-								<string>94 257 1371 892 0 0 1920 1178 </string>
+								<string>{{0, 0}, {1078, 846}}</string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>585pt</string>
+							<string>846pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>261pt</string>
+							<string>0pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -413,9 +406,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1078, 234}}</string>
-										<key>RubberWindowFrame</key>
-										<string>94 257 1371 892 0 0 1920 1178 </string>
+										<string>{{10, 27}, {1078, -27}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -538,13 +529,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>C1FDC6BB0A2DE25E00C94DEA</string>
+								<string>C1FDC6BA0A2DE25000C94DEA</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
-									<integer>2</integer>
+									<integer>5</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -565,6 +556,8 @@
 							<string>MainColumn</string>
 							<real>184</real>
 						</array>
+						<key>RubberWindowFrame</key>
+						<string>92 257 1371 892 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -580,7 +573,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>C1FBD0510A3660830020FF89</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SynthController.m</string>
+								<string>GaugeView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -588,27 +581,29 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>C1FBD0520A3660830020FF89</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SynthController.m</string>
+										<string>GaugeView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C19A5FCA0A37355400F0B199</string>
+										<string>C19A60310A379D1E00F0B199</string>
 										<key>history</key>
 										<array>
 											<string>C19A5DA80A37163700F0B199</string>
 											<string>C19A5DE30A3719B700F0B199</string>
 											<string>C19A5DF80A371A7000F0B199</string>
 											<string>C19A5E560A371DC900F0B199</string>
-											<string>C19A5E7C0A371EDD00F0B199</string>
 											<string>C19A5EE00A37261900F0B199</string>
 											<string>C19A5EE10A37261900F0B199</string>
 											<string>C19A5EE20A37261900F0B199</string>
-											<string>C19A5F250A37284C00F0B199</string>
 											<string>C19A5F560A372DF200F0B199</string>
 											<string>C19A5F730A37303B00F0B199</string>
 											<string>C19A5FBF0A37352300F0B199</string>
 											<string>C19A5FC10A37353C00F0B199</string>
-											<string>C19A5FC20A37353C00F0B199</string>
+											<string>C19A5FCC0A37357D00F0B199</string>
+											<string>C19A5FFD0A373B5A00F0B199</string>
+											<string>C19A60200A379BE000F0B199</string>
+											<string>C19A60210A379BE000F0B199</string>
+											<string>C19A602B0A379C3D00F0B199</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -626,6 +621,8 @@
 											<string>C19A5F710A37303700F0B199</string>
 											<string>C19A5FB80A37346F00F0B199</string>
 											<string>C19A5FC30A37353C00F0B199</string>
+											<string>C19A60230A379BE000F0B199</string>
+											<string>C19A60240A379BE000F0B199</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -640,6 +637,8 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {1165, 323}}</string>
+								<key>RubberWindowFrame</key>
+								<string>92 257 1371 892 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -722,6 +721,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1165, 496}}</string>
+										<key>RubberWindowFrame</key>
+										<string>92 257 1371 892 0 0 1920 1178 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXRunSessionModule</string>
@@ -933,7 +934,7 @@
 		<string>/Users/pete/Projects/Not A Hat/Software/SimpleSynth/SimpleSynth.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>94 257 1371 892 0 0 1920 1178 </string>
+	<string>92 257 1371 892 0 0 1920 1178 </string>
 	<key>WindowTools</key>
 	<array>
 		<dict>
