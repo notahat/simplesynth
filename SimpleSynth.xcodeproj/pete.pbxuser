@@ -8,7 +8,7 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = C1FBD0390A3660750020FF89 /* SimpleSynth */;
 		activeTarget = 8D1107260486CEB800E47090 /* SimpleSynth */;
 		addToTargets = (
@@ -226,6 +226,15 @@
 			C19A5E900A37201400F0B199 /* PBXTextBookmark */ = C19A5E900A37201400F0B199 /* PBXTextBookmark */;
 			C19A5E910A37201600F0B199 /* PBXTextBookmark */ = C19A5E910A37201600F0B199 /* PBXTextBookmark */;
 			C19A5E920A37201600F0B199 /* PBXTextBookmark */ = C19A5E920A37201600F0B199 /* PBXTextBookmark */;
+			C19A5E950A37216A00F0B199 /* PBXTextBookmark */ = C19A5E950A37216A00F0B199 /* PBXTextBookmark */;
+			C19A5E960A37216A00F0B199 /* PBXTextBookmark */ = C19A5E960A37216A00F0B199 /* PBXTextBookmark */;
+			C19A5E970A3721AE00F0B199 /* PBXTextBookmark */ = C19A5E970A3721AE00F0B199 /* PBXTextBookmark */;
+			C19A5E990A3721B000F0B199 /* PBXTextBookmark */ = C19A5E990A3721B000F0B199 /* PBXTextBookmark */;
+			C19A5E9A0A3721B000F0B199 /* PBXTextBookmark */ = C19A5E9A0A3721B000F0B199 /* PBXTextBookmark */;
+			C19A5EC00A37232000F0B199 /* PBXTextBookmark */ = C19A5EC00A37232000F0B199 /* PBXTextBookmark */;
+			C19A5EC10A37232000F0B199 /* PBXTextBookmark */ = C19A5EC10A37232000F0B199 /* PBXTextBookmark */;
+			C19A5EC20A37232200F0B199 /* PBXTextBookmark */ = C19A5EC20A37232200F0B199 /* PBXTextBookmark */;
+			C19A5EC30A37232200F0B199 /* PBXTextBookmark */ = C19A5EC30A37232200F0B199 /* PBXTextBookmark */;
 			C1FBD0650A3661530020FF89 = C1FBD0650A3661530020FF89 /* PBXTextBookmark */;
 			C1FBD0670A3661530020FF89 = C1FBD0670A3661530020FF89 /* PBXTextBookmark */;
 		};
@@ -1705,6 +1714,96 @@
 		vrLen = 930;
 		vrLoc = 8380;
 	};
+	C19A5E950A37216A00F0B199 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C1FDC5740A2DD88200C94DEA /* SynthController.m */;
+		name = "SynthController.m: sendFeedback:";
+		rLen = 0;
+		rLoc = 9310;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 8257;
+	};
+	C19A5E960A37216A00F0B199 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C1FDC5740A2DD88200C94DEA /* SynthController.m */;
+		name = "SynthController.m: 271";
+		rLen = 0;
+		rLoc = 8691;
+		rType = 0;
+		vrLen = 930;
+		vrLoc = 8380;
+	};
+	C19A5E970A3721AE00F0B199 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C1FDC5740A2DD88200C94DEA /* SynthController.m */;
+		name = "SynthController.m: 271";
+		rLen = 0;
+		rLoc = 8691;
+		rType = 0;
+		vrLen = 930;
+		vrLoc = 8380;
+	};
+	C19A5E990A3721B000F0B199 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C1FDC5740A2DD88200C94DEA /* SynthController.m */;
+		name = "SynthController.m: 271";
+		rLen = 0;
+		rLoc = 8691;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 8257;
+	};
+	C19A5E9A0A3721B000F0B199 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C1FDC5740A2DD88200C94DEA /* SynthController.m */;
+		name = "SynthController.m: 271";
+		rLen = 0;
+		rLoc = 8691;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 8333;
+	};
+	C19A5EC00A37232000F0B199 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C1FDC5740A2DD88200C94DEA /* SynthController.m */;
+		name = "SynthController.m: 263";
+		rLen = 0;
+		rLoc = 8474;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 8257;
+	};
+	C19A5EC10A37232000F0B199 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C1FDC5740A2DD88200C94DEA /* SynthController.m */;
+		name = "SynthController.m: 256";
+		rLen = 0;
+		rLoc = 8376;
+		rType = 0;
+		vrLen = 1284;
+		vrLoc = 6976;
+	};
+	C19A5EC20A37232200F0B199 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C1FDC5740A2DD88200C94DEA /* SynthController.m */;
+		name = "SynthController.m: 256";
+		rLen = 0;
+		rLoc = 8376;
+		rType = 0;
+		vrLen = 1284;
+		vrLoc = 6976;
+	};
+	C19A5EC30A37232200F0B199 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C1FDC5740A2DD88200C94DEA /* SynthController.m */;
+		name = "SynthController.m: 256";
+		rLen = 0;
+		rLoc = 8376;
+		rType = 0;
+		vrLen = 1023;
+		vrLoc = 7236;
+	};
 	C1FBD0390A3660750020FF89 /* SimpleSynth */ = {
 		isa = PBXExecutable;
 		activeArgIndex = 2147483647;
@@ -1772,8 +1871,8 @@
 	C1FDC5740A2DD88200C94DEA /* SynthController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {944, 4060}}";
-			sepNavSelRange = "{9310, 0}";
-			sepNavVisRect = "{{0, 3616}, {904, 444}}";
+			sepNavSelRange = "{8376, 0}";
+			sepNavVisRect = "{{0, 3042}, {904, 444}}";
 		};
 	};
 	C1FDC6970A2DE10300C94DEA /* Credits.html */ = {
