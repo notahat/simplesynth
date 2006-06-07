@@ -11,6 +11,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C19A5E4D0A371D9900F0B199 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = C1FDC6970A2DE10300C94DEA /* Credits.html */; };
 		C1B7399A0A32611B006E542A /* SimpleSynth Help in Resources */ = {isa = PBXBuildFile; fileRef = C1B739990A32611B006E542A /* SimpleSynth Help */; };
 		C1FDC5760A2DD88200C94DEA /* NSStringFSSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC56B0A2DD88200C94DEA /* NSStringFSSpec.m */; };
 		C1FDC5770A2DD88200C94DEA /* InstrumentsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC56D0A2DD88200C94DEA /* InstrumentsDataSource.m */; };
@@ -34,7 +35,6 @@
 		C1FDC5EE0A2DDCFD00C94DEA /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FDC5ED0A2DDCFD00C94DEA /* CoreMIDI.framework */; };
 		C1FDC62A0A2DDD9900C94DEA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FDC6290A2DDD9900C94DEA /* AudioToolbox.framework */; };
 		C1FDC6800A2DE0A400C94DEA /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C1FDC67F0A2DE0A400C94DEA /* AppIcon.icns */; };
-		C1FDC6980A2DE10300C94DEA /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = C1FDC6970A2DE10300C94DEA /* Credits.html */; };
 		C1FDC7220A2DE68F00C94DEA /* License.html in Resources */ = {isa = PBXBuildFile; fileRef = C1FDC7200A2DE68F00C94DEA /* License.html */; };
 /* End PBXBuildFile section */
 
@@ -295,9 +295,9 @@
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				C1FDC6800A2DE0A400C94DEA /* AppIcon.icns in Resources */,
-				C1FDC6980A2DE10300C94DEA /* Credits.html in Resources */,
 				C1FDC7220A2DE68F00C94DEA /* License.html in Resources */,
 				C1B7399A0A32611B006E542A /* SimpleSynth Help in Resources */,
+				C19A5E4D0A371D9900F0B199 /* Credits.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

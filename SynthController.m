@@ -276,12 +276,12 @@
     NSString* name = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"];
     name = [[name componentsSeparatedByString:@" "] componentsJoinedByString:@"%20"];
 
-    NSString* version = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"];
+    NSString* version = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
 	version = [[version componentsSeparatedByString:@" "] componentsJoinedByString:@"%20"];
    
     [[NSWorkspace sharedWorkspace] openURL:[NSURL
         URLWithString:[NSString
-            stringWithFormat:@"mailto:help@notahat.com?subject=%@%%20%@", name, version
+            stringWithFormat:@"mailto:simplesynth@notahat.com?subject=%@%%20%@", name, version
         ]
     ]];
 }
