@@ -13,7 +13,6 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		C19A5E4D0A371D9900F0B199 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = C1FDC6970A2DE10300C94DEA /* Credits.html */; };
 		C19A5F690A372F5F00F0B199 /* To Do.txt in Resources */ = {isa = PBXBuildFile; fileRef = C19A5F680A372F5F00F0B199 /* To Do.txt */; };
-		C1B7399A0A32611B006E542A /* SimpleSynth Help in Resources */ = {isa = PBXBuildFile; fileRef = C1B739990A32611B006E542A /* SimpleSynth Help */; };
 		C1FDC5760A2DD88200C94DEA /* NSStringFSSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC56B0A2DD88200C94DEA /* NSStringFSSpec.m */; };
 		C1FDC5770A2DD88200C94DEA /* InstrumentsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC56D0A2DD88200C94DEA /* InstrumentsDataSource.m */; };
 		C1FDC5780A2DD88200C94DEA /* ChannelsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FDC56F0A2DD88200C94DEA /* ChannelsDataSource.m */; };
@@ -51,7 +50,6 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SimpleSynth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSynth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19A5F680A372F5F00F0B199 /* To Do.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "To Do.txt"; sourceTree = "<group>"; };
-		C1B739920A32610D006E542A /* English */ = {isa = PBXFileReference; lastKnownFileType = folder; name = English; path = "English.lproj/SimpleSynth Help"; sourceTree = "<group>"; };
 		C1FDC56A0A2DD88200C94DEA /* SynthController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SynthController.h; sourceTree = "<group>"; };
 		C1FDC56B0A2DD88200C94DEA /* NSStringFSSpec.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NSStringFSSpec.m; sourceTree = "<group>"; };
 		C1FDC56C0A2DD88200C94DEA /* NSStringFSSpec.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NSStringFSSpec.h; sourceTree = "<group>"; };
@@ -178,7 +176,6 @@
 				C1FDC67F0A2DE0A400C94DEA /* AppIcon.icns */,
 				C1FDC6970A2DE10300C94DEA /* Credits.html */,
 				C1FDC7200A2DE68F00C94DEA /* License.html */,
-				C1B739990A32611B006E542A /* SimpleSynth Help */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -264,7 +261,6 @@
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
 				C1FBCFEF0A3657630020FF89 /* ShellScript */,
-				C19A5F6C0A37301A00F0B199 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -302,7 +298,6 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				C1FDC6800A2DE0A400C94DEA /* AppIcon.icns in Resources */,
 				C1FDC7220A2DE68F00C94DEA /* License.html in Resources */,
-				C1B7399A0A32611B006E542A /* SimpleSynth Help in Resources */,
 				C19A5E4D0A371D9900F0B199 /* Credits.html in Resources */,
 				C19A5F690A372F5F00F0B199 /* To Do.txt in Resources */,
 			);
@@ -311,19 +306,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C19A5F6C0A37301A00F0B199 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Automatically index the help files on release builds.\n\nif [[ ${BUILD_STYLE} == \"Release\" ]]; then\n\topen -a /Developer/Applications/Utilities/Help\\ Indexer.app \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Contents/Resources/English.lproj/${PRODUCT_NAME} Help\"\nfi\n";
-		};
 		C1FBCFEF0A3657630020FF89 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,14 +364,6 @@
 				29B97319FDCFA39411CA2CEA /* English */,
 			);
 			name = MainMenu.nib;
-			sourceTree = "<group>";
-		};
-		C1B739990A32611B006E542A /* SimpleSynth Help */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1B739920A32610D006E542A /* English */,
-			);
-			name = "SimpleSynth Help";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
