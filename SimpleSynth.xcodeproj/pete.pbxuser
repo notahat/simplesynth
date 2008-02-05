@@ -9,7 +9,7 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeArchitecture = i386;
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = C1FBD0390A3660750020FF89 /* SimpleSynth */;
 		activeTarget = 8D1107260486CEB800E47090 /* SimpleSynth */;
 		addToTargets = (
@@ -41,7 +41,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					243,
+					947,
 					20,
 					48,
 					43,
@@ -84,6 +84,14 @@
 			PBXWorkspaceStateSaveDate = 223881479;
 		};
 		perUserProjectItems = {
+			C19440200D582BD6001A251A /* PBXTextBookmark */ = C19440200D582BD6001A251A /* PBXTextBookmark */;
+			C19440210D582BD6001A251A /* PBXTextBookmark */ = C19440210D582BD6001A251A /* PBXTextBookmark */;
+			C19440220D582BD6001A251A /* PBXBookmark */ = C19440220D582BD6001A251A /* PBXBookmark */;
+			C19440230D582BD6001A251A /* PBXTextBookmark */ = C19440230D582BD6001A251A /* PBXTextBookmark */;
+			C19440240D582BD6001A251A /* PBXTextBookmark */ = C19440240D582BD6001A251A /* PBXTextBookmark */;
+			C19440250D582BD6001A251A /* PBXTextBookmark */ = C19440250D582BD6001A251A /* PBXTextBookmark */;
+			C19440300D582D00001A251A /* PBXTextBookmark */ = C19440300D582D00001A251A /* PBXTextBookmark */;
+			C19440330D582D2A001A251A /* PBXTextBookmark */ = C19440330D582D2A001A251A /* PBXTextBookmark */;
 			C19A5DA30A37163500F0B199 = C19A5DA30A37163500F0B199 /* PBXTextBookmark */;
 			C19A5DA50A37163500F0B199 = C19A5DA50A37163500F0B199 /* PBXTextBookmark */;
 			C19A5DA80A37163700F0B199 = C19A5DA80A37163700F0B199 /* PBXTextBookmark */;
@@ -165,6 +173,104 @@
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRect = "{{0, 0}, {903, 576}}";
 		};
+	};
+	C19440080D582907001A251A /* index.html */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.html;
+		path = index.html;
+		sourceTree = "<group>";
+	};
+	C19440200D582BD6001A251A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C19A5F680A372F5F00F0B199 /* To Do.txt */;
+		name = "To Do.txt: 9";
+		rLen = 0;
+		rLoc = 155;
+		rType = 0;
+		vrLen = 155;
+		vrLoc = 0;
+	};
+	C19440210D582BD6001A251A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C1FDC5750A2DD88200C94DEA /* AudioSystem.m */;
+		name = "AudioSystem.m: 450";
+		rLen = 0;
+		rLoc = 12569;
+		rType = 0;
+		vrLen = 1205;
+		vrLoc = 0;
+	};
+	C19440220D582BD6001A251A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C19440080D582907001A251A /* index.html */;
+	};
+	C19440230D582BD6001A251A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C19A5F680A372F5F00F0B199 /* To Do.txt */;
+		name = "To Do.txt: 9";
+		rLen = 0;
+		rLoc = 155;
+		rType = 0;
+		vrLen = 155;
+		vrLoc = 0;
+	};
+	C19440240D582BD6001A251A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C1FDC5750A2DD88200C94DEA /* AudioSystem.m */;
+		name = "AudioSystem.m: 450";
+		rLen = 0;
+		rLoc = 12569;
+		rType = 0;
+		vrLen = 1205;
+		vrLoc = 0;
+	};
+	C19440250D582BD6001A251A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C19440260D582BD6001A251A /* index.html */;
+		name = "index.html: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 0;
+	};
+	C19440260D582BD6001A251A /* index.html */ = {
+		isa = PBXFileReference;
+		name = index.html;
+		path = "/Users/pete/Desktop/simplesynth/code/English.lproj/SimpleSynth Help/index.html";
+		sourceTree = "<absolute>";
+	};
+	C19440300D582D00001A251A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C19440310D582D00001A251A /* index.html */;
+		name = "index.html: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 0;
+	};
+	C19440310D582D00001A251A /* index.html */ = {
+		isa = PBXFileReference;
+		name = index.html;
+		path = "/Users/pete/Desktop/simplesynth/code/English.lproj/SimpleSynth Help/index.html";
+		sourceTree = "<absolute>";
+	};
+	C19440330D582D2A001A251A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C19440340D582D2A001A251A /* index.html */;
+		name = "index.html: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 0;
+	};
+	C19440340D582D2A001A251A /* index.html */ = {
+		isa = PBXFileReference;
+		name = index.html;
+		path = "/Users/pete/Desktop/simplesynth/code/English.lproj/SimpleSynth Help/index.html";
+		sourceTree = "<absolute>";
 	};
 	C19A5DA30A37163500F0B199 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -401,7 +507,7 @@
 		fRef = C1FDC5750A2DD88200C94DEA /* AudioSystem.m */;
 		name = "AudioSystem.m: 352";
 		rLen = 0;
-		rLoc = 9382;
+		rLoc = 9431;
 		rType = 0;
 		vrLen = 380;
 		vrLoc = 9122;
@@ -411,7 +517,7 @@
 		fRef = C1FDC5750A2DD88200C94DEA /* AudioSystem.m */;
 		name = "AudioSystem.m: 348";
 		rLen = 0;
-		rLoc = 9207;
+		rLoc = 9256;
 		rType = 0;
 		vrLen = 303;
 		vrLoc = 9120;
@@ -505,8 +611,9 @@
 	};
 	C19A5F680A372F5F00F0B199 /* To Do.txt */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1118, 291}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1125, 741}}";
 			sepNavSelRange = "{155, 0}";
+			sepNavVisRange = "{0, 155}";
 			sepNavVisRect = "{{0, 0}, {1118, 291}}";
 		};
 	};
@@ -746,7 +853,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -818,8 +925,9 @@
 	};
 	C1FDC5750A2DD88200C94DEA /* AudioSystem.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1110, 6230}}";
-			sepNavSelRange = "{9382, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1125, 7520}}";
+			sepNavSelRange = "{12569, 0}";
+			sepNavVisRange = "{0, 1205}";
 			sepNavVisRect = "{{0, 4781}, {1110, 196}}";
 		};
 	};
