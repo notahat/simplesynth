@@ -1,8 +1,0 @@
-$Id$
-
-To Do
-
-- Work out how to do a deployment build (see "Building a Product for Deployment" in the help)
-
-Bugs
-
