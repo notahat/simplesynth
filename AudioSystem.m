@@ -101,6 +101,8 @@
     
     if (![filename makeFSSpec:&fsSpec]) return NO;
 
+	AUGraphStop(graph);
+	
     AUGraphGetNodeInfo (graph, synthNode, NULL, NULL, NULL, &synthUnit);
     error = AudioUnitSetProperty (
         synthUnit,
@@ -108,6 +110,9 @@
         0,
         &fsSpec, sizeof (fsSpec)
     );
+	
+	AUGraphStart(graph);
+	
     if (error) return NO;
 
     for (i = 0; i < 16; i++) channelInstrument[i] = 0;
