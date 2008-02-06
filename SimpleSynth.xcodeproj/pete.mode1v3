@@ -326,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C1D665B40D59649200B622FD</string>
+										<string>C16B7B620D596D9000C87461</string>
 										<key>history</key>
 										<array>
 											<string>C19440400D582EF2001A251A</string>
@@ -369,7 +369,7 @@
 											<string>C19440A10D583A85001A251A</string>
 											<string>C19440A20D583A85001A251A</string>
 											<string>C18A8EDE0D59227800CBBF03</string>
-											<string>C18A8EF60D59237E00CBBF03</string>
+											<string>C1D665B40D59649200B622FD</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -471,9 +471,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>C1D665AF0D59471400B622FD</string>
+				<string>C16B7B600D596D8600C87461</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>C1D665B00D59471400B622FD</string>
+				<string>C16B7B610D596D8600C87461</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -607,7 +607,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>C19440270D582BD6001A251A</string>
 		<string>/Users/pete/Desktop/simplesynth/code/SimpleSynth.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
