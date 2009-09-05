@@ -42,6 +42,7 @@ typedef struct {
 
 - (UInt32)instrumentCount;
 - (MusicDeviceInstrumentID)instrumentIDAtIndex:(UInt32)index;
+- (UInt32)indexOfInstrumentID:(MusicDeviceInstrumentID)instrumentID;
 - (NSString*)nameOfInstrument:(MusicDeviceInstrumentID)instrumentID;
 + (MIDIInstrument)instrumentIDToInstrument:(MusicDeviceInstrumentID)instrumentID;
 + (MusicDeviceInstrumentID)instrumentToInstrumentID:(MIDIInstrument)instrument;

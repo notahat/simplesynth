@@ -32,6 +32,12 @@
         name:@"instrumentChanged" object:audioSystem
     ];
         
+    // Catch when user picks a new MIDI channel to update Instruments selection to match
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self selector:@selector(channelsTableSelectionChanged:)
+     name:@"NSTableViewSelectionDidChangeNotification" object:channelsTable
+    ];
+    
     // The following hardcoded values should really be dynamically pulled from the
     // AudioSystem, but the values you get when doing that make the slider very
     // lop-sided.  I'd also have to set the slider labels dynamically.
@@ -151,6 +157,8 @@
     [soundSetTextField setStringValue:@"Apple DLS Sound Set"];
     [channelsTable reloadData];
     [instrumentsTable reloadData];
+    [channelsTable selectRow:0 byExtendingSelection:NO];
+    [self updateInstrumentSelection];
     [self updateMIDIDetails];
 }
 
@@ -165,7 +173,9 @@
         [channelsTable reloadData];
         [instrumentsTable reloadData];
         [self updateMIDIDetails];
-
+        [channelsTable selectRow:0 byExtendingSelection:NO];
+        [self updateInstrumentSelection];
+        
         // Add the file to the recent documents menu
         [[NSDocumentController sharedDocumentController]
             noteNewRecentDocumentURL:[NSURL fileURLWithPath:filename]
@@ -197,6 +207,21 @@
 - (void)audioSystemInstrumentChanged:(NSNotification*)notification
 {
     [channelsTable reloadData];
+}
+
+
+- (void)channelsTableSelectionChanged:(NSNotification*)notification
+{
+    [self updateInstrumentSelection];
+}
+
+
+- (void)updateInstrumentSelection
+{
+    UInt32 channel = [channelsTable selectedRow];
+	MusicDeviceInstrumentID channelInstrumentID = [audioSystem currentInstrumentOnChannel:channel];
+	UInt32 instrumentIndex = [audioSystem indexOfInstrumentID:channelInstrumentID];
+	[instrumentsTable selectRow:instrumentIndex byExtendingSelection:NO];
 }
 
 

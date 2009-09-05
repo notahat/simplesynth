@@ -117,9 +117,9 @@
     AUGraphRemoveNode(graph, synthNode);
 
     // Open the DLS Synth
-    description.componentType			= kAudioUnitComponentType;
-    description.componentSubType		= kAudioUnitSubType_MusicDevice;
-    description.componentManufacturer	= kAudioUnitID_DLSSynth;
+    description.componentType           = kAudioUnitType_MusicDevice;
+    description.componentSubType        = kAudioUnitSubType_DLSSynth;
+    description.componentManufacturer   = kAudioUnitManufacturer_Apple;
     description.componentFlags			= 0;
     description.componentFlagsMask		= 0;
     AUGraphNewNode (graph, &description, 0, NULL, &synthNode);
@@ -185,6 +185,30 @@
         return instrumentID;
     else
         return 0;
+}
+
+
+- (UInt32)indexOfInstrumentID:(MusicDeviceInstrumentID)instrumentID
+{
+	OSErr						result;
+	AudioUnit					synthUnit;
+	UInt32						instrumentCount;
+	MusicDeviceInstrumentID		foundInstrumentID;
+	UInt32						index;
+	UInt32						size = sizeof (instrumentID);
+    
+	result = AUGraphGetNodeInfo (graph, synthNode, NULL, NULL, NULL, &synthUnit);
+
+    instrumentCount = [self instrumentCount];	
+    for (index = 0; index < instrumentCount; index++) {
+        result = AudioUnitGetProperty(
+            synthUnit, kMusicDeviceProperty_InstrumentNumber,
+            kAudioUnitScope_Global, index, &foundInstrumentID, &size
+        );
+        if (result == noErr && foundInstrumentID == instrumentID) return index;
+    }
+    
+    return 0;
 }
 
 

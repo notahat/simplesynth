@@ -42,7 +42,9 @@
 - (void)displayOpenFailedAlert:(NSString*)fileName;
 
 - (void)audioSystemInstrumentChanged:(NSNotification*)notification;
+- (void)channelsTableSelectionChanged:(NSNotification*)notification;
 - (void)instrumentsTableSelectionChanged:(NSNotification*)notification;
+- (void)updateInstrumentSelection;
 - (void)updateMIDIDetails;
 
 - (IBAction)cutoffSliderChanged:(id)sender;
