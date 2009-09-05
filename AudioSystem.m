@@ -25,9 +25,9 @@
     NewAUGraph (&graph);
     
     // Open the DLS Synth
-    description.componentType			= kAudioUnitComponentType;
-    description.componentSubType		= kAudioUnitSubType_MusicDevice;
-    description.componentManufacturer	= kAudioUnitID_DLSSynth;
+    description.componentType           = kAudioUnitType_MusicDevice;
+    description.componentSubType        = kAudioUnitSubType_DLSSynth;
+    description.componentManufacturer   = kAudioUnitManufacturer_Apple;
     description.componentFlags			= 0;
     description.componentFlagsMask		= 0;
     AUGraphNewNode (graph, &description, 0, NULL, &synthNode);
@@ -35,17 +35,17 @@
     for (i = 0; i < 16; i++) channelInstrument[i] = 0;
 
     // Open the filter
-    description.componentType			= kAudioUnitComponentType;
-    description.componentSubType		= kAudioUnitSubType_Effect;
-    description.componentManufacturer	= kAudioUnitID_LowPassFilter;
+    description.componentType           = kAudioUnitType_Effect;
+    description.componentSubType        = kAudioUnitSubType_LowPassFilter;
+    description.componentManufacturer   = kAudioUnitManufacturer_Apple;
     description.componentFlags			= 0;
     description.componentFlagsMask		= 0;
     AUGraphNewNode (graph, &description, 0, NULL, &filterNode);
 
     // Open the output device
-    description.componentType			= kAudioUnitComponentType;
-    description.componentSubType		= kAudioUnitSubType_Output;
-    description.componentManufacturer	= kAudioUnitID_DefaultOutput;
+    description.componentType           = kAudioUnitType_Output;
+    description.componentSubType        = kAudioUnitSubType_DefaultOutput;
+    description.componentManufacturer   = kAudioUnitManufacturer_Apple;
     description.componentFlags			= 0;
     description.componentFlagsMask		= 0;
     AUGraphNewNode (graph, &description, 0, NULL, &outputNode);
