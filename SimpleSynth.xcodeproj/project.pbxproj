@@ -273,7 +273,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleSynth" */;
 			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* SimpleSynth */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -372,6 +379,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = SimpleSynth;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = NO;
 			};
@@ -381,14 +389,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = (
-					ppc,
+					x86_64,
 					i386,
+					ppc,
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				"MACOSX_DEPLOYMENT_TARGET[arch=i386]" = 10.5;
+				"MACOSX_DEPLOYMENT_TARGET[arch=ppc]" = 10.5;
 				PRODUCT_NAME = SimpleSynth;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = NO;
 			};
