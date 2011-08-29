@@ -82,7 +82,7 @@
     int			i;
 	NSURL		*fileURL;
 	
-	fileURL = [NSURL fileURLWithPath:filename];
+	fileURL = [[NSURL fileURLWithPath:filename] autorelease];
 
 	AUGraphStop(graph);
 	
