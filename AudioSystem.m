@@ -82,8 +82,10 @@
     int			i;
 	NSURL		*fileURL;
 	
-	fileURL = [[NSURL fileURLWithPath:filename] autorelease];
-
+	fileURL = [NSURL fileURLWithPath:filename];
+	
+	if (!fileURL) return NO;
+	
 	AUGraphStop(graph);
 	
     AUGraphGetNodeInfo (graph, synthNode, NULL, NULL, NULL, &synthUnit);
@@ -93,7 +95,7 @@
         0,
 		&fileURL, sizeof(fileURL)
     );
-	
+
 	AUGraphStart(graph);
 	
     if (error) return NO;
