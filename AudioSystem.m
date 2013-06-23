@@ -77,21 +77,21 @@
 // This takes the file and attempts to load it into the synth unit
 - (BOOL)openFile:(NSString*)filename
 {
-    FSSpec		fsSpec;
     AudioUnit	synthUnit;
     OSStatus	error;
     int			i;
-    
-    if (![filename makeFSSpec:&fsSpec]) return NO;
+	NSURL		*fileURL;
+	
+	fileURL = [NSURL fileURLWithPath:filename];
 
 	AUGraphStop(graph);
 	
     AUGraphGetNodeInfo (graph, synthNode, NULL, NULL, NULL, &synthUnit);
     error = AudioUnitSetProperty (
         synthUnit,
-        kMusicDeviceProperty_SoundBankFSSpec, kAudioUnitScope_Global,
+        kMusicDeviceProperty_SoundBankURL, kAudioUnitScope_Global,
         0,
-        &fsSpec, sizeof (fsSpec)
+		&fileURL, sizeof(fileURL)
     );
 	
 	AUGraphStart(graph);
