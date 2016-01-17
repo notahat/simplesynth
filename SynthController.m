@@ -38,6 +38,10 @@
      name:@"NSTableViewSelectionDidChangeNotification" object:channelsTable
     ];
     
+    // volume slider values are percentage based
+    [audioSystem setVolume:50.0];
+    [volumeSlider setFloatValue:[audioSystem getVolume]];
+    
     // The following hardcoded values should really be dynamically pulled from the
     // AudioSystem, but the values you get when doing that make the slider very
     // lop-sided.  I'd also have to set the slider labels dynamically.
@@ -253,6 +257,12 @@
 - (IBAction)cutoffSliderChanged:(id)sender
 {
     [audioSystem setFilterCutoff:[cutoffSlider floatValue]];
+}
+
+// This is called when the user moves the volume cutoff slider
+- (IBAction)volumeSliderChanged:(id)sender
+{
+    [audioSystem setVolume:[volumeSlider floatValue]];
 }
 
 

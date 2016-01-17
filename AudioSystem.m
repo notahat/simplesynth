@@ -315,6 +315,28 @@
     return info.maxValue;
 }
 
+- (float)getVolume
+{
+    AudioUnit volumeUnit;
+    float value;
+    
+    AUGraphGetNodeInfo (graph, outputNode, NULL, NULL, NULL, &volumeUnit);
+    
+    AudioUnitGetParameter (volumeUnit, kHALOutputParam_Volume, kAudioUnitScope_Output, 0, &value);
+    
+    return value;
+}
+
+- (void)setVolume:(float)value
+{
+    AudioUnit		volumeUnit;
+    
+    AUGraphGetNodeInfo (graph, outputNode, NULL, NULL, NULL, &volumeUnit);
+    
+    AudioUnitSetParameter(volumeUnit, kHALOutputParam_Volume, kAudioUnitScope_Output, 0, value, 0);
+}
+
+
 - (float)getFilterCutoff
 {
     AudioUnit filterUnit;
