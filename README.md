@@ -2,4 +2,4 @@
 
 I added a volume control slider and updated the project to build for El Capitan.
 
-https://user-images.githubusercontent.com/28652/38577801-f500cf4e-3ccf-11e8-9028-439a79f35024.jpg
+![38577945-715d8320-3cd0-11e8-801e-3fa0b0b9b03e.png](https://user-images.githubusercontent.com/28652/38577945-715d8320-3cd0-11e8-801e-3fa0b0b9b03e.png)
