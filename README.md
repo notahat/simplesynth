@@ -1,4 +1,4 @@
-= SimpleSynth - A MIDI synth for Mac
+# SimpleSynth - A MIDI synth for Mac
 
 I added a volume control slider and updated the project to build for El Capitan.
 
