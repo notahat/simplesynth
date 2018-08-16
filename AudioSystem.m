@@ -77,23 +77,25 @@
 // This takes the file and attempts to load it into the synth unit
 - (BOOL)openFile:(NSString*)filename
 {
-    FSSpec		fsSpec;
     AudioUnit	synthUnit;
     OSStatus	error;
     int			i;
-    
-    if (![filename makeFSSpec:&fsSpec]) return NO;
-
+	NSURL		*fileURL;
+	
+	fileURL = [NSURL fileURLWithPath:filename];
+	
+	if (!fileURL) return NO;
+	
 	AUGraphStop(graph);
 	
     AUGraphGetNodeInfo (graph, synthNode, NULL, NULL, NULL, &synthUnit);
     error = AudioUnitSetProperty (
         synthUnit,
-        kMusicDeviceProperty_SoundBankFSSpec, kAudioUnitScope_Global,
+        kMusicDeviceProperty_SoundBankURL, kAudioUnitScope_Global,
         0,
-        &fsSpec, sizeof (fsSpec)
+		&fileURL, sizeof(fileURL)
     );
-	
+
 	AUGraphStart(graph);
 	
     if (error) return NO;
@@ -312,6 +314,28 @@
     
     return info.maxValue;
 }
+
+- (float)getVolume
+{
+    AudioUnit volumeUnit;
+    float value;
+    
+    AUGraphGetNodeInfo (graph, outputNode, NULL, NULL, NULL, &volumeUnit);
+    
+    AudioUnitGetParameter (volumeUnit, kHALOutputParam_Volume, kAudioUnitScope_Output, 0, &value);
+    
+    return value;
+}
+
+- (void)setVolume:(float)value
+{
+    AudioUnit		volumeUnit;
+    
+    AUGraphGetNodeInfo (graph, outputNode, NULL, NULL, NULL, &volumeUnit);
+    
+    AudioUnitSetParameter(volumeUnit, kHALOutputParam_Volume, kAudioUnitScope_Output, 0, value, 0);
+}
+
 
 - (float)getFilterCutoff
 {

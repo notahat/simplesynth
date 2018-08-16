@@ -49,6 +49,9 @@ typedef struct {
 - (MusicDeviceInstrumentID)currentInstrumentOnChannel:(int)channel;
 - (void)setInstrument:(MusicDeviceInstrumentID)instrumentID forChannel:(int)channel;
 
+- (float)getVolume;
+- (void)setVolume:(float)value;
+
 - (float)getFilterCutoffMin;
 - (float)getFilterCutoffMax;
 - (float)getFilterCutoff;

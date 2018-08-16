@@ -20,6 +20,7 @@
     IBOutlet NSTextField*	bankSelectMSBField;
     IBOutlet NSTextField*	bankSelectLSBField;
     IBOutlet NSSlider*		cutoffSlider;
+    IBOutlet NSSlider*		volumeSlider;
     IBOutlet GaugeView*		cpuLoadGuage;
     
     NSTimer*					uiUpdateTimer;
@@ -48,6 +49,7 @@
 - (void)updateMIDIDetails;
 
 - (IBAction)cutoffSliderChanged:(id)sender;
+- (IBAction)volumeSliderChanged:(id)sender;
 
 - (void)updateCPULoadGuage;
 

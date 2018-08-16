@@ -1,0 +1,175 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = x86_64;
+		activeBuildConfigurationName = Release;
+		activeExecutable = A6C4BC641409944D00626A9D /* SimpleSynth */;
+		activeTarget = 8D1107260486CEB800E47090 /* SimpleSynth */;
+		breakpoints = (
+		);
+		codeSenseManager = A6C4BC7B1409946D00626A9D /* Code sense */;
+		executables = (
+			A6C4BC641409944D00626A9D /* SimpleSynth */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1230,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1190,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 336336431;
+			PBXWorkspaceStateSaveDate = 336336431;
+		};
+		perUserProjectItems = {
+			A68DE263140C2AF500430992 /* PBXTextBookmark */ = A68DE263140C2AF500430992 /* PBXTextBookmark */;
+			A68DE26E140C2B8900430992 /* PBXTextBookmark */ = A68DE26E140C2B8900430992 /* PBXTextBookmark */;
+		};
+		sourceControlManager = A6C4BC7A1409946D00626A9D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* SimpleSynth */ = {
+		activeExec = 0;
+		executables = (
+			A6C4BC641409944D00626A9D /* SimpleSynth */,
+		);
+	};
+	A68DE263140C2AF500430992 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C1FDC5750A2DD88200C94DEA /* AudioSystem.m */;
+		name = "AudioSystem.m: 93";
+		rLen = 18;
+		rLoc = 2512;
+		rType = 0;
+		vrLen = 1216;
+		vrLoc = 2175;
+	};
+	A68DE26E140C2B8900430992 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C1FDC5750A2DD88200C94DEA /* AudioSystem.m */;
+		name = "AudioSystem.m: 89";
+		rLen = 0;
+		rLoc = 2485;
+		rType = 0;
+		vrLen = 1353;
+		vrLoc = 2168;
+	};
+	A6C4BC641409944D00626A9D /* SimpleSynth */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SimpleSynth;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+		variableFormatDictionary = {
+		};
+	};
+	A6C4BC7A1409946D00626A9D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A6C4BC7B1409946D00626A9D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C1FDC5750A2DD88200C94DEA /* AudioSystem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {977, 6084}}";
+			sepNavSelRange = "{2482, 0}";
+			sepNavVisRange = "{2408, 340}";
+			sepNavWindowFrame = "{{15, 171}, {1418, 852}}";
+		};
+	};
+}
