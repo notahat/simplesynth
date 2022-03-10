@@ -88,6 +88,7 @@
 		C1FDC6290A2DDD9900C94DEA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
 		C1FDC67F0A2DE0A400C94DEA /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		C1FDC6970A2DE10300C94DEA /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		F284BCD527DA52F70061E09D /* SimpleSynth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleSynth.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +140,7 @@
 		29B97314FDCFA39411CA2CEA /* SimpleSynth */ = {
 			isa = PBXGroup;
 			children = (
+				F284BCD527DA52F70061E09D /* SimpleSynth.entitlements */,
 				C1FDC6BB0A2DE25E00C94DEA /* Controller Classes */,
 				C1FDC6BA0A2DE25000C94DEA /* View Classes */,
 				C1FDC6B90A2DE24200C94DEA /* Model Classes */,
@@ -372,9 +374,12 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SimpleSynth.entitlements;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = Q5V96MD6S6;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -392,8 +397,11 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SimpleSynth.entitlements;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = Q5V96MD6S6;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				INFOPLIST_FILE = Info.plist;
@@ -415,6 +423,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = .;
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				PREBINDING = NO;
 				SDKROOT = macosx;
 			};
@@ -423,12 +432,14 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SimpleSynth_Prefix.pch;
 				GCC_VERSION = 4.0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = .;
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
 				PREBINDING = NO;
 				SDKROOT = macosx;
 			};
